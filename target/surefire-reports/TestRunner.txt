@@ -1,0 +1,184 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.719 s <<< FAILURE! -- in TestRunner
+Compose and Send Email in Gmail.Send an email successfully -- Time elapsed: 0.122 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am logged into Gmail' and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am logged into Gmail")
+public void i_am_logged_into_gmail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string}")
+public void i_click_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the recipient email")
+public void i_enter_the_recipient_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the subject {string}")
+public void i_enter_the_subject(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the email body {string}")
+public void i_enter_the_email_body(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the email should be sent successfully")
+public void the_email_should_be_sent_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the email should appear in the {string} folder with subject {string}")
+public void the_email_should_appear_in_the_folder_with_subject(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Compose and Send Email in Gmail.Verify email appears in Sent folder -- Time elapsed: 0.005 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'an email was sent with subject "Incubyte"' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an email was sent with subject {string}")
+public void an_email_was_sent_with_subject(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I navigate to the {string} folder")
+public void i_navigate_to_the_folder(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see an email with the subject {string}")
+public void i_should_see_an_email_with_the_subject(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Compose and Send Email in Gmail.Error when sending email without recipient -- Time elapsed: 0.013 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am logged into Gmail' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am logged into Gmail")
+public void i_am_logged_into_gmail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string}")
+public void i_click_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I leave the recipient email blank")
+public void i_leave_the_recipient_email_blank() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the subject {string}")
+public void i_enter_the_subject(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the email body {string}")
+public void i_enter_the_email_body(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see an error message indicating recipient is required")
+public void i_should_see_an_error_message_indicating_recipient_is_required() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Compose and Send Email in Gmail.Warning when sending email without subject -- Time elapsed: 0.010 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am logged into Gmail' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am logged into Gmail")
+public void i_am_logged_into_gmail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string}")
+public void i_click_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the recipient email")
+public void i_enter_the_recipient_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I leave the subject blank")
+public void i_leave_the_subject_blank() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the email body {string}")
+public void i_enter_the_email_body(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should see a warning prompt asking to confirm sending without subject")
+public void i_should_see_a_warning_prompt_asking_to_confirm_sending_without_subject() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Compose and Send Email in Gmail.Send email with empty body successfully -- Time elapsed: 0.011 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am logged into Gmail' and 7 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am logged into Gmail")
+public void i_am_logged_into_gmail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string}")
+public void i_click_on(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the recipient email")
+public void i_enter_the_recipient_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the subject {string}")
+public void i_enter_the_subject(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I leave the email body blank")
+public void i_leave_the_email_body_blank() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the email should be sent successfully")
+public void the_email_should_be_sent_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the email should appear in the {string} folder with subject {string}")
+public void the_email_should_appear_in_the_folder_with_subject(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
